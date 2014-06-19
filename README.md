@@ -18,6 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
+Add this to your application.js.erb
+
+    //= require jquery-visibility
+
+Add event handlers for the page becoming visible or hidden:
+
+	$(function() {
+		$(document).on({
+			'show.visibility': function() {
+				console.log('The page gained visibility');
+			},
+			'hide.visibility': function() {
+				console.log('The page lost visibility');
+			}
+		});
+	});
+
+
 
 ## Contributing
 
