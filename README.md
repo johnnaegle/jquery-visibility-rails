@@ -1,6 +1,6 @@
 # Jquery::Visibility::Rails
 
-This gem packages the jQuery [Visiblity](https://github.com/mathiasbynens/jquery-visibility) plugin for easy use with the Rails 3.1+ asset pipleine.
+This gem packages the [jQuery Visiblity](https://github.com/mathiasbynens/jquery-visibility) plugin for easy use with the Rails 3.1+ asset pipleine.
 
 ## Installation
 
